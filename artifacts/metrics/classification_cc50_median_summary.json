@@ -1,0 +1,25 @@
+{
+  "task": "classification_cc50_median",
+  "target": "CC50, mM",
+  "best_model": "grad_boosting",
+  "best_params": {
+    "n_estimators": 322,
+    "learning_rate": 0.010093922841420749,
+    "max_depth": 3,
+    "subsample": 0.8625498559408429
+  },
+  "holdout": {
+    "accuracy": 0.7164179104477612,
+    "precision": 0.6837606837606838,
+    "recall": 0.8,
+    "f1": 0.7373271889400922,
+    "roc_auc": 0.8319801980198019
+  },
+  "feature_filter": {
+    "n_before": 210,
+    "n_after": 159,
+    "dropped_constant": 18,
+    "dropped_correlated": 33,
+    "dropped_all_nan": 0
+  }
+}

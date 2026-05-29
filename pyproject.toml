@@ -1,0 +1,56 @@
+[project]
+name = "chemical-coursework"
+version = "0.1.0"
+description = "Классическое МО для QSAR-данных: предсказание IC50 / CC50 / SI противогриппозных соединений"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "xgboost>=2.0",
+    "lightgbm>=4.0",
+    "catboost>=1.2",
+    "optuna>=3.6",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "joblib>=1.3",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+chemcw-eda = "chemical_coursework.eda:run_eda"
+chemcw-run-all = "chemical_coursework.run_all:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.13",
+    "ruff>=0.8",
+    "types-tqdm",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/chemical_coursework"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["chemical_coursework"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+packages = ["chemical_coursework"]
+check_untyped_defs = true
+warn_unused_ignores = true
+ignore_missing_imports = true

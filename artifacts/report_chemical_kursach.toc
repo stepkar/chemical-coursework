@@ -1,0 +1,42 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{Введение}{2}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Исходные материалы и теоретическая база}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Учебный материал}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Описание датасета}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Постановка задачи}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Архитектура приложения}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Общие принципы}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Анализ кода}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Структура проекта}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Иерархия классов задач}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Запуск}{8}{section.2.5}%
+\contentsline {chapter}{\numberline {3}EDA}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Базовые характеристики датасета}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Проверка определения SI}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Распределения целевых переменных}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Парные зависимости между таргетами}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Корреляционный анализ признаков с таргетами}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Фильтрация признаков}{12}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Баланс классов для задач классификации}{13}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Область применимости (Applicability Domain)}{13}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Сводка решений по EDA}{14}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Инструментарий и методология моделирования}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Использованные библиотеки}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Состав моделей-кандидатов}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Единый пайплайн обучения}{16}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Результаты регрессионных моделей}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Регрессия IC50}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Регрессия CC50}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Регрессия SI}{18}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Результаты классификационных моделей}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Классификация: IC50 выше медианы}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Классификация: CC50 выше медианы}{19}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Классификация: SI выше медианы}{20}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Классификация: SI > 8}{20}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Сравнительный анализ и обсуждение}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Регрессия против классификации}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Линейные модели против ансамблей}{21}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Согласованность EDA и финальных результатов}{21}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Ограничения работы}{22}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Рекомендации по развитию}{22}{section.7.5}%
+\contentsline {chapter}{Заключение}{23}{chapter*.13}%

@@ -1,0 +1,24 @@
+{
+  "task": "regression_si",
+  "target": "SI",
+  "best_model": "random_forest",
+  "best_params": {
+    "n_estimators": 528,
+    "max_depth": 16,
+    "min_samples_split": 7,
+    "min_samples_leaf": 4,
+    "max_features": "log2"
+  },
+  "holdout": {
+    "MAE": 0.7448408419628928,
+    "RMSE": 0.9319506737137967,
+    "R2": 0.1714397539647453
+  },
+  "feature_filter": {
+    "n_before": 210,
+    "n_after": 159,
+    "dropped_constant": 18,
+    "dropped_correlated": 33,
+    "dropped_all_nan": 0
+  }
+}

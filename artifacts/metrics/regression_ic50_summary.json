@@ -1,0 +1,25 @@
+{
+  "task": "regression_ic50",
+  "target": "IC50, mM",
+  "best_model": "xgboost",
+  "best_params": {
+    "n_estimators": 256,
+    "learning_rate": 0.02336464833504746,
+    "max_depth": 4,
+    "subsample": 0.6622504841634067,
+    "colsample_bytree": 0.8177128277189859,
+    "reg_lambda": 9.190464778775317
+  },
+  "holdout": {
+    "MAE": 1.0164142908120015,
+    "RMSE": 1.2824669086277867,
+    "R2": 0.41553102940746045
+  },
+  "feature_filter": {
+    "n_before": 210,
+    "n_after": 157,
+    "dropped_constant": 20,
+    "dropped_correlated": 33,
+    "dropped_all_nan": 0
+  }
+}

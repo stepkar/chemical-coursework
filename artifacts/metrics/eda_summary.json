@@ -1,0 +1,93 @@
+{
+  "shape": {
+    "n_rows": 1001,
+    "n_cols": 213,
+    "n_targets": 3,
+    "n_features_raw": 210,
+    "dtype_counts": {
+      "float64": 107,
+      "int64": 106
+    }
+  },
+  "missing_features_count": 12,
+  "missing_total_cells": 36,
+  "target_stats": {
+    "IC50, mM": {
+      "count": 1001.0,
+      "mean": 222.8051558813,
+      "std": 402.1697344286,
+      "min": 0.003516694,
+      "25%": 12.51539592,
+      "50%": 46.58518346,
+      "75%": 224.9759276,
+      "max": 4128.529377
+    },
+    "CC50, mM": {
+      "count": 1001.0,
+      "mean": 589.1107281067,
+      "std": 642.8675083286,
+      "min": 0.700807913,
+      "25%": 99.9990355,
+      "50%": 411.0393423,
+      "75%": 894.0891765,
+      "max": 4538.976189
+    },
+    "SI": {
+      "count": 1001.0,
+      "mean": 72.5088229496,
+      "std": 684.4827387531,
+      "min": 0.011489269,
+      "25%": 1.433333333,
+      "50%": 3.846153846,
+      "75%": 16.56666667,
+      "max": 15620.6
+    }
+  },
+  "si_definition_check": {
+    "max_abs_diff": 0.0004117503540328471,
+    "median_rel_diff": 1.338326902089328e-10,
+    "share_close_1pct": 1.0
+  },
+  "feature_filter_report": {
+    "n_before": 210,
+    "n_after": 159,
+    "n_dropped_constant": 18,
+    "n_dropped_correlated": 33,
+    "n_dropped_all_nan": 0,
+    "examples_constant": [
+      "NumRadicalElectrons",
+      "SMR_VSA8",
+      "SlogP_VSA9",
+      "fr_N_O",
+      "fr_SH",
+      "fr_azide",
+      "fr_barbitur",
+      "fr_benzodiazepine",
+      "fr_diazo",
+      "fr_dihydropyridine"
+    ],
+    "examples_correlated": [
+      "MaxEStateIndex",
+      "HeavyAtomMolWt",
+      "ExactMolWt",
+      "NumValenceElectrons",
+      "MinAbsPartialCharge",
+      "Chi0",
+      "Chi0n",
+      "Chi0v",
+      "Chi1",
+      "Chi1n"
+    ]
+  },
+  "class_balance": {
+    "IC50, mM > median": 0.4995004995004995,
+    "CC50, mM > median": 0.4985014985014985,
+    "SI > median": 0.4995004995004995,
+    "SI > 8.0": 0.35664335664335667
+  },
+  "applicability_domain": {
+    "leverage_mean": 0.9999999999999998,
+    "leverage_p95": 2.437639085978319,
+    "n_potential_outliers_AD": 49
+  }
+}

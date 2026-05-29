@@ -1,0 +1,24 @@
+{
+  "task": "regression_cc50",
+  "target": "CC50, mM",
+  "best_model": "random_forest",
+  "best_params": {
+    "n_estimators": 660,
+    "max_depth": 23,
+    "min_samples_split": 7,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "holdout": {
+    "MAE": 0.805087600526277,
+    "RMSE": 1.0867465976051627,
+    "R2": 0.5107158164049028
+  },
+  "feature_filter": {
+    "n_before": 210,
+    "n_after": 159,
+    "dropped_constant": 18,
+    "dropped_correlated": 33,
+    "dropped_all_nan": 0
+  }
+}

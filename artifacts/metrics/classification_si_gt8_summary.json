@@ -1,0 +1,27 @@
+{
+  "task": "classification_si_gt8",
+  "target": "SI",
+  "best_model": "xgboost",
+  "best_params": {
+    "n_estimators": 419,
+    "learning_rate": 0.015052691022225199,
+    "max_depth": 9,
+    "subsample": 0.7068797815122686,
+    "colsample_bytree": 0.783474070381836,
+    "reg_lambda": 9.212672557701866
+  },
+  "holdout": {
+    "accuracy": 0.7313432835820896,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1": 0.5714285714285714,
+    "roc_auc": 0.7441322136089579
+  },
+  "feature_filter": {
+    "n_before": 210,
+    "n_after": 159,
+    "dropped_constant": 18,
+    "dropped_correlated": 33,
+    "dropped_all_nan": 0
+  }
+}

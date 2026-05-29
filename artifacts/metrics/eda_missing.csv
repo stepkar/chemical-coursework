@@ -1,0 +1,13 @@
+,n_missing,pct
+MaxPartialCharge,3,0.3
+MinPartialCharge,3,0.3
+MaxAbsPartialCharge,3,0.3
+MinAbsPartialCharge,3,0.3
+BCUT2D_MWHI,3,0.3
+BCUT2D_MWLOW,3,0.3
+BCUT2D_CHGHI,3,0.3
+BCUT2D_CHGLO,3,0.3
+BCUT2D_LOGPHI,3,0.3
+BCUT2D_LOGPLOW,3,0.3
+BCUT2D_MRHI,3,0.3
+BCUT2D_MRLOW,3,0.3

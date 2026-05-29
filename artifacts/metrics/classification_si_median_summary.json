@@ -1,0 +1,26 @@
+{
+  "task": "classification_si_median",
+  "target": "SI",
+  "best_model": "random_forest",
+  "best_params": {
+    "n_estimators": 217,
+    "max_depth": 24,
+    "min_samples_split": 5,
+    "min_samples_leaf": 7,
+    "max_features": 0.5
+  },
+  "holdout": {
+    "accuracy": 0.6567164179104478,
+    "precision": 0.6867469879518072,
+    "recall": 0.57,
+    "f1": 0.6229508196721312,
+    "roc_auc": 0.704009900990099
+  },
+  "feature_filter": {
+    "n_before": 210,
+    "n_after": 159,
+    "dropped_constant": 18,
+    "dropped_correlated": 33,
+    "dropped_all_nan": 0
+  }
+}
